@@ -2,12 +2,7 @@
 - hosts: all
   become: yes
   tasks:
-  - name: install git
+  - name: i want to install webserver on node
     apt:
-      name: git
-      state: present
-
-  - name: install wget
-    apt:
-      name: git
+      name: apache2
       state: present
