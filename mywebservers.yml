@@ -1,5 +1,5 @@
 ---
-- myhosts: [mywebservers]
+- myhosts: mywebservers
   become: yes
   tasks:
   - name: i want to install webserver on node
